@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="daire-alani-ve-cevresi"/>
+        <attribute name="authors" value="Okul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-06 11:29:19 &#214;&#214;"/>
+        <attribute name="created" value="T2t1bDtMQUI2LTE0OzIwMjQtMTEtMDY7MTE6MTY6NTUgw5bDljsyMzY4"/>
+        <attribute name="edited" value="T2t1bDtMQUI2LTE0OzIwMjQtMTEtMDY7MTE6Mjk6MTkgw5bDljsxOzI0ODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <declare name="alan" type="Integer" array="False" size=""/>
+            <declare name="cevre" type="Integer" array="False" size=""/>
+            <input variable="r"/>
+            <assign variable="alan" expression="3*(r*r)"/>
+            <assign variable="cevre" expression="2*3*r"/>
+            <output expression="&quot;Alan = &quot;&amp;alan" newline="True"/>
+            <output expression="&quot;&#199;evresi = &quot;&amp;cevre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
